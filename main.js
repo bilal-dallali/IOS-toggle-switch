@@ -1,7 +1,7 @@
 const darkMode = document.querySelector("input[name=checkbox]")
 
 //only useful in firefox
-document.getElementById("dark-mode").checked = false
+document.querySelector("input[name=checkbox]").checked = false
 
 darkMode.addEventListener("change", (e) => {
     if (e.target.checked) {
